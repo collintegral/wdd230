@@ -1,0 +1,2 @@
+document.getElementById("copyright").innerHTML = `© ${new Date().getFullYear()} | Collin Christensen | Pennsylvania, USA`;
+document.getElementById("lastModified").innerHTML = `Last Modified ${document.lastModified}`;

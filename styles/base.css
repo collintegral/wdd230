@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "nunito";
+}
+
+header {
+    background-color: darkolivegreen;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin: 1%;
+}
+
+header span {
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1%;
+    font-weight: 650;
+}
+
+nav {
+    background-color: black;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    padding: .5rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    background-color: lightgoldenrodyellow;
+    color: black;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    margin: 1rem 2vw;
+}
+
+.mainparent {
+    margin: 1rem 2vw;
+}
+
+.mainparent section {
+    border: 1px solid darkolivegreen;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    
+}
+
+.mainparent h2 {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.mainparent p {
+    padding: 10px;
+}
+
+.card ul {
+    padding: 2%;
+    list-style-type: none;
+}
+
+.card ul li {
+    padding: .8%;
+}
+
+.card p {
+    text-align: center;
+}
+
+footer {
+    background-color: darkolivegreen;
+    padding: .5rem;
+    color: whitesmoke;
+}
+
+footer p {
+    text-align: center;
+    padding: .5%;
+}
