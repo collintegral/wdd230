@@ -17,6 +17,6 @@ header, main, footer {
 }
 
 section {
-    padding: 1%;
+    padding: 1rem;
     background-color: white;
 }
