@@ -23,13 +23,15 @@ main {
     margin: 1rem auto;
     padding: .5rem;
     background-color: #556b2f;
+    text-align: center;
+    color: whitesmoke;
 }
 
 main ul {
-    text-align: center;
     margin: 1rem 2vw;
     list-style-type: none;
     background-color: lightgoldenrodyellow;
+    color: black;
 }
 
 main li {
@@ -40,10 +42,10 @@ footer {
     background-color: lightgoldenrodyellow;
     padding: .5rem;
     color: black;
+    text-align: center;
 }
 
 footer ul {
-    text-align: center;
     padding: .5%;
     list-style-type: none;
     margin: 1rem;
