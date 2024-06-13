@@ -8,8 +8,6 @@
 header {
     background-color: #556b2f;
     padding: .5rem;
-    display: flex;
-    align-items: center;
     font-family: "Belanosima";
     font-size: 2.5rem;
 }
