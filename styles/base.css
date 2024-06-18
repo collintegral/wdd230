@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: darkolivegreen;
+    background-color: #40571b;
     padding: .5rem;
     display: flex;
     align-items: center;
@@ -61,7 +61,7 @@ main h1 {
 }
 
 .mainparent section {
-    border: 1px solid darkolivegreen;
+    border: 1px solid #40571b;
     background-color: lightgoldenrodyellow;
     border-radius: 10px;
     overflow: hidden;
@@ -70,7 +70,7 @@ main h1 {
 }
 
 .mainparent h2 {
-    background-color: darkolivegreen;
+    background-color: #40571b;
     color: whitesmoke;
     display: block;
     text-align: center;
@@ -95,7 +95,7 @@ main h1 {
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: #40571b;
     padding: .5rem;
     color: whitesmoke;
 }
