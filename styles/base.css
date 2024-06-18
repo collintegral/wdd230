@@ -104,3 +104,13 @@ footer p {
     text-align: center;
     padding: .5%;
 }
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	right: 3%;
+	top: 3%;
+}
