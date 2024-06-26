@@ -8,7 +8,7 @@
     <meta name="description" content="WDD 230 - Web Frontend Development of Collin Christensen: Course Assignment Portal">
     <meta property="og:title" content="Collin Christensen - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://collintegral.github.io/wdd230/images/york_pa.jpg">
+    <meta property="og:image" content="https://collintegral.github.io/wdd230/images/york_pa.webp">
     <meta property="og:url" content="https://collintegral.github.io/wdd230/">
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -22,7 +22,7 @@
 
 <body>
     <header>
-        <img src="images/profilepic.jpg" alt="Collin Christensen" id="profilepic" width="100" height="100">
+        <img src="images/profilepic.webp" alt="Collin Christensen" id="profilepic" width="100" height="100">
         <span class="name">Collin Christensen</span>
         <button id="menu"></button>
         <button id="darkmode">◐</button>
@@ -38,6 +38,15 @@
     </nav>
 
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/kc-temple-small.webp">
+                <img src="images/kc-temple-large.webp" alt="KC Missouri Temple" width="960" height="600">
+            </picture>
+            <span>
+                Kansas City Missouri Temple
+            </span>
+        </div>   
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="mainparent">
             <section class="card">
@@ -45,19 +54,19 @@
                 <ul>
                     <li>Week 01: <a href="">Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a href="">JS Pen</a></li>
                     <li>Week 02: <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/Collintegral/pen/XWwZrdV">Hamburger CodePen</a> | <a href="week02/bom.html">BoM DOM Manipulation Practice</a></li>
-                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a></li>
+                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">BoM Web Storage</a></li>
                     <li>Week 04:</li>
                     <li>Week 05:</li>
                     <li>Week 06:</li>
                 </ul>
             </section>
-            <section class="card">
+            <section class="card right-card">
                 <h2>Information</h2>
-                <p>York, PA</p>
                 <p>68°F - Cloudy</p>
-                <p>Page Visits: 0</p>
-                
+                <span>Page Visits: </span><span class="visits"></span>
             </section>
+            <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=York,%20PA+(York,%20PA)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" loading="lazy">
+            </iframe>
         </div>
     </main>
 
@@ -69,6 +78,7 @@
             Last Modified: 01/01/1900 10:00:00
         </p>
     </footer>
+    <script src="scripts/getvisits.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menubuttons.js"></script>
 </body>
