@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>York Chamber of Commerce</title>
+    <meta name="author" content="Collin Christensen">
+    <meta name="description" content="WDD 230 - Chamber">
+
+    <meta property="og:title" content="York Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://collintegral.github.io/wdd230/images/york_pa.jpg">
+    <meta property="og:url" content="https://collintegral.github.io/wdd230/chamber">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>York Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active-nav">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="discover-main">
+        <div class="discover-sidebar">
+            <div>
+                <h2 class="last-visit"></h2>
+            </div>
+            <div>
+                <h2>Test Sidebar Content</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus cum omnis incidunt facere vero quo quaerat sit ipsum temporibus numquam.
+                    Atque quos rem commodi vel nobis dignissimos odio voluptate impedit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus aut voluptatem nulla minima! Inventore rerum recusandae nam quidem dicta minima eius repudiandae,
+                    tempora perspiciatis aspernatur assumenda modi deleniti necessitatibus pariatur.</p>
+            </div>
+            <div>
+                <h2>Historic York, PA</h2>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/york-nation-capital-sign-small.webp">
+                    <img src="images/york-nation-capital-sign.webp" alt="Historical Sign regarding York's time as US Capital" loading="lazy" width="660" height="499">
+                </picture>
+            </div>
+            <div>
+                <h2>Test Sidebar Content</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quidem,
+                    consequatur reiciendis voluptates rem fugit doloribus porro suscipit repellat,
+                    veniam ipsum blanditiis accusantium quod sed? Optio dolorum tempora laudantium eius!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quibusdam excepturi aperiam culpa alias nulla qui similique debitis natus!
+                    Laudantium ipsam necessitatibus totam similique dolorem porro nam. Hic aliquid voluptatem vitae?
+                </p>
+            </div>
+        </div>
+        <div class="discover-pictures">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/york-pa-small.webp">
+                <img src="images/york-pa.webp" alt="York PA Thoroughfare" height="800" width="1200" loading="lazy">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/shoe-house-small.webp">
+                <img src="images/shoe-house.webp" alt="Shoe House"  height="800" width="1200" loading="lazy">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/gettysburg-small.webp">
+                <img src="images/gettysburg.webp" alt="Gettysburg" height="800" width="1200" loading="lazy">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/memorial-arch-small.webp">
+                <img src="images/memorial-arch.webp" alt="US Memorial Arch" height="800" width="1200" loading="lazy">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/liberty-bell-small.webp">
+                <img src="images/liberty-bell.webp" alt="Liberty Bell" height="800" width="1200" loading="lazy">
+            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/philadelphia-temple-small.webp">
+                <img src="images/philadelphia-temple.webp" alt="Philadelphia PA Temple" height="800" width="1200"  loading="lazy">
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact Us: 123-456-7890</p>
+        <p>Collin Christensen | WDD 230 Class Project</p>
+        <p id="lastmod"></p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/discover.js"></script>
+</body>
+</html>
