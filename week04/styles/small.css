@@ -1,0 +1,127 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: #ddd;
+}
+header h1 {margin: 0;}
+header h2 {margin: 0; font-weight: normal;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: #666;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {border-bottom: solid 1px #333;}
+nav ul li a {
+    display: block;
+    background-color: #444;
+    color: #eee;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 20rem;
+}
+
+/*----------- FORM -----------*/
+.appform fieldset {
+    margin: 2rem 0;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.appform legend {
+    color: #445ba9;
+    padding: 0 .5rem;
+}
+
+.appform label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
+}
+
+.appform div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .0rem;
+}
+
+.appform input[type=text]
+,.appform input[type=tel]
+,.appform input[type=email]
+,.appform input[type=url]
+,.appform input[type=date]
+,.appform select
+,.appform input[type=number] {
+    display: block;
+    background-color: #eee;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.appform input[type="radio"]
+,.appform input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.appform input[type="submit"] {
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(#445ba9, #444);
+    box-shadow: 1px 1px 4px grey;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: -1rem 2% 1rem 2%;
+    width: 96%;
+    max-width: 400px;
+}
+
+.appform input:required {
+    border-left: 4px red solid;
+}
+
+.appform input:required:valid {
+    border-left: 4px darkgreen solid;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #ddd;
+    padding: .5rem 2%;
+    text-align: center;
+}

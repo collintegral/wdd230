@@ -1,0 +1,66 @@
+:root {
+    --bord: solid 1px black;
+    --innerbord: solid 1px darkred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: darkred;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    border-left: var(--innerbord);
+}
+
+thead {
+    color: white;
+}
+
+thead > :first-child > * {
+    padding: 10px;
+    font-size: larger;
+}
+
+thead > :last-child > *{
+    border-right: var(--innerbord);
+}
+
+thead > :last-child > :not(:nth-child(1)) {
+    background-color: red;
+    padding: 8px 16px;
+}
+
+tbody > * > * {
+    padding: 5px 10px;
+}
+
+tbody > * > * {
+    border-right: var(--innerbord);
+    border-bottom: var(--innerbord);
+}
+
+tbody > :first-child > * {
+    border-top: var(--innerbord);
+}
+
+tbody > :nth-child(odd) {
+    background-color: lightcoral;
+}
+
+tbody > :nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.y {
+    color: darkgreen;
+}
+
+.n {
+    color: darkred;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: .85rem;
+    font-weight: normal;
+}
