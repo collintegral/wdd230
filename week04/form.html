@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+
+    <meta name="author" content="Collin Christensen">
+    <meta name="description" content="WDD 230 - Web Frontend Development Form Practice">
+
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <img src="../images/profilepic.webp" alt="Collin Christensen" id="profilepic" width="100" height="100">
+        <span class="name">Collin Christensen</span>
+        <button id="menu"></button>
+        <button id="darkmode">◐</button>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../chamber/index.html">Chamber</a></li>
+            <li><a href="../week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Confirm Password* <input type="password" id="password-confirm" name="password-confirm" required pattern="[A-Za-z0-9]{8,}"></label>
+                <label>Email* <input type="email" id="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@byui\.edu*$/" placeholder="Please enter a valid @byui.edu email address."></label>
+            </fieldset>
+            <fieldset>
+                <label>Page Rating* <input type="range" id="rating" name="rating" required min="1" max="10" step="1"></label><h3 class="rating-value"> </h3>
+            </fieldset>
+            <input type="submit" value="Send My Rating">
+        </form>
+    </main>
+
+    <footer>
+        <p id="copyright">
+            © 2024 | Collin Christensen | Pennsylvania, USA
+        </p>
+        <p id="lastModified">
+            Last Modified: 01/01/1900 10:00:00
+        </p>
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="../scripts/getvisits.js"></script>
+    <script src="../scripts/getdates.js"></script>
+    <script src="../scripts/menubuttons.js"></script>
+</body>
+</html>
