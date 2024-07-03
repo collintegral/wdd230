@@ -35,10 +35,10 @@
                 <label>Username* <input type="text" id="username" name="username" required></label>
                 <label>Password* <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}"></label>
                 <label>Confirm Password* <input type="password" id="password-confirm" name="password-confirm" required pattern="[A-Za-z0-9]{8,}"></label>
-                <label>Email* <input type="email" id="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@byui\.edu*$/" placeholder="Please enter a valid @byui.edu email address."></label>
+                <label>Email* <input type="email" id="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@byui\.edu*$/" placeholder="Please enter a valid @byui.edu email address" title="Valid Email Address"></label>
             </fieldset>
             <fieldset>
-                <label>Page Rating* <input type="range" id="rating" name="rating" required min="1" max="10" step="1"></label><h3 class="rating-value"> </h3>
+                <label>Page Rating* <input type="range" id="rating" name="rating" min="1" max="10" step="1"></label><h3 class="rating-value"> </h3>
             </fieldset>
             <input type="submit" value="Send My Rating">
         </form>
