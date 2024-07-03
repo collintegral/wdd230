@@ -5,6 +5,8 @@
 }
 
 form > * {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: var(--margin);
     width: 96%;
     max-width: 400px;
@@ -12,6 +14,7 @@ form > * {
     font-size: 1.1rem;
     border: solid 1px black;
     box-shadow: 1px 1px 5px black;
+    display: block;
 }
 
 form > :not(:last-child) {
@@ -23,7 +26,7 @@ form > :last-child {
     width: 90%;
     max-width: 400px;
     padding: 5px;
-    margin: 1rem auto 1.5rem;
+    margin: 1rem auto 1.5rem auto;
 }
 
 form > * > * {
