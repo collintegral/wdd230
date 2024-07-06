@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>York Chamber of Commerce</title>
+    <meta name="author" content="Collin Christensen">
+    <meta name="description" content="WDD 230 - Chamber">
+
+    <meta property="og:title" content="York Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://collintegral.github.io/wdd230/images/york_pa.jpg">
+    <meta property="og:url" content="https://collintegral.github.io/wdd230/chamber">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>York Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html" class="active-nav">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="form">
+        <form method="get" action="thankyou.html" class="join-form">
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+                <label>First Name*<input type="text" name="fname" id="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label>Email*<input type="email" name="email" id="email" required placeholder="my.email@example.com"></label>
+                <label>Phone Number<input type="tel" name="phone" id="phone"></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Business Information
+                </legend>
+                <label>Business/Organization*<input type="text" name="business" id="business" required></label>
+                <label>Title/Position<input type="text" name="title" id="title" pattern="[-A-Za-z\s]{7,}" title="Job Title, no numbers"></label>
+                <label>Business Description<textarea name="description" id="description"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Membership Level
+                </legend>
+                <label>
+                    <select name="membership" required>
+                    <option value="" hidden selected>Select a Membership Level...</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <input type="hidden" name="timestamp" id="timestamp">
+            </fieldset>
+            <input type="submit" value="Apply to Join">
+        </form>
+
+        <div class="benefits-cards">
+            <div class="card">
+                <h3>Non-Profit Memebership | Free</h3>
+                <ul>
+                    <li>Networking Benefits</li>
+                    <li>Access to Special Non-Profit Events</li>
+                    <li>Listed on Community Non-Profit Spotlight Page Each Month</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Bronze Membership | 25.99</h3>
+                <ul>
+                    <li>Networking Benefits</li>
+                    <li>Access to Community Events</li>
+                    <li>Listed on Community Spotlight Page Each Month</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Silver Membership | 48.99</h3>
+                <ul>
+                    <li>Networking Benefits</li>
+                    <li>Access to Community Events</li>
+                    <li>Community Event Discount</li>
+                    <li>Access to Community Trainings</li>
+                    <li>Listed on Community Spotlight Page Each Month</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Gold Membership | 65.99</h3>
+                <ul>
+                    <li>Networking Benefits</li>
+                    <li>Early Access to Community Events</li>
+                    <li>Community Even Discounts</li>
+                    <li>Early Access to Community Trainings</li>
+                    <li>Community Training Discounts</li>
+                    <li>Featured at Top of Community Spotlight Page Each Month</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact Us: 123-456-7890</p>
+        <p>Collin Christensen | WDD 230 Class Project</p>
+        <p id="lastmod"></p>
+    </footer>
+
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/join.js"></script>
+</body>
+</html>

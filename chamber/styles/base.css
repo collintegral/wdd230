@@ -123,7 +123,8 @@ main button {
     border-color: #006ca4;
     color: white;
     padding: .5rem;
-    margin: .5rem;
+    display: block;
+    margin: auto;
 }
 
 .card {
@@ -141,6 +142,85 @@ main button {
 
 .card p {
     font-family: "nunito";
+}
+
+
+.join-form {
+    width: 100%;
+}
+
+.join-form > * {
+    border-color: #101c2c;
+    border-radius: 6px;
+}
+
+.join-form legend {
+    font-family: "Belanosima";
+    font-size: 1.2rem;
+    padding: 0 8px;
+}
+
+.join-form * label {
+    font-family: "Belanosima";
+}
+
+.join-form * label * {
+    font-family: "nunito"
+}
+
+.join-form input:required {
+    border-left: 3px red solid;
+}
+
+.join-form input:required:valid {
+    border-left: 3px darkgreen solid;
+}
+
+.join-form > * > * {
+    display: block;
+}
+
+.join-form > * > * > * {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    width: 96%;
+}
+
+.join-form > * > :not(:nth-child(2)) {
+    margin-top: 20px;
+}
+
+.join-form > :last-child {
+    font-family: "belanosima";
+    display: block;
+    margin: 15px auto;
+    padding: 5px 10px;
+    color: white;
+    background-color: #101c2c;
+}
+
+.benefits-cards .card {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px grey;
+    padding: 5px;
+}
+
+.benefits-cards ul li {
+    font-family: "nunito";
+    padding: 10px;
+}
+
+.thanks {
+    text-align: center;
+    padding: 100px;
+    font-family: "nunito";
+}
+
+.thanks a {
+    text-decoration: none;
+    color: #385474;
 }
 
 footer {
