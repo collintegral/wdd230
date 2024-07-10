@@ -16,12 +16,11 @@ function displayLinks(weeks) {
         weekLi.innerHTML = `${week.week}: `;
 
         week.links.forEach((link, amt, array) => {
-            console.log("test");
             const linkA = document.createElement("a");
-            linkA.src = link.url;
+            linkA.href = link.url;
             linkA.textContent = link.title;
 
-            weekLi.appendChild(linkA);
+            weekLi.append(linkA);
             if (amt !== array.length - 1) {
                 weekLi.append(" | ");
             }
