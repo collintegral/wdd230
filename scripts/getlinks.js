@@ -1,8 +1,7 @@
 const practiceList = document.querySelector("#practice-list");
 
 const baseURL = "https://collintegral.github.io/wdd230/";
-//const linksJSON = "https://collintegral.github.io/wdd230/data/links.json";
-const linksJSON = "../data/links.json";
+const linksJSON = "https://collintegral.github.io/wdd230/data/links.json";
 
 async function getLinks() {
     const response = await fetch(linksJSON);
