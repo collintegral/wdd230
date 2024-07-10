@@ -1,0 +1,28 @@
+{
+    "familyName" : "Sample"
+    , "moveInDate" : "2024-06-08"
+    , "memberCount" : 4
+    , "bishopricVisited" : true
+    , "members" : [
+        {
+            "name" : "Test"
+            , "gender" : "m"
+            , "birthdate" : "1990-08-02"
+        }
+        , {
+            "name" : "Mock"
+            , "gender" : "f"
+            , "birthdate" : "1991-01-04"
+        }
+        , {
+            "name" : "Example"
+            , "gender" : "m"
+            , "birthdate" : "2011-06-29"
+        }
+        , {
+            "name" : "Data"
+            , "gender" : "f"
+            , "birthdate" : "2013-04-11"
+        }
+    ]
+}

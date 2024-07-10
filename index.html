@@ -51,18 +51,13 @@
         <div class="mainparent">
             <section class="card">
                 <h2>Learning Activities</h2>
-                <ul>
-                    <li>Week 01: <a href="">Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a href="">JS Pen</a></li>
-                    <li>Week 02: <a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/Collintegral/pen/XWwZrdV">Hamburger CodePen</a> | <a href="week02/bom.html">BoM DOM Manipulation Practice</a></li>
-                    <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy Load</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a href="week03/bom.html">BoM Web Storage</a></li>
-                    <li>Week 04: <a href="https://codepen.io/Collintegral/pen/WNBVrME">CodePen</a> | <a href="week04/tablebuild.html">Table Build</a> | <a href="week04/index.html"></a></li>
-                    <li>Week 05:</li>
-                    <li>Week 06:</li>
+                <ul id="practice-list">
+
                 </ul>
             </section>
             <section class="card right-card">
                 <h2>Information</h2>
-                <p>68°F - Cloudy</p>
+                <p><img id="temp-icon" src="" alt=""><span id="current-temp"></span>°F - <span id="temp-desc"></span></p>
                 <span>Page Visits: </span><span class="visits"></span>
             </section>
             <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=York,%20PA+(York,%20PA)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" loading="lazy">
@@ -81,5 +76,7 @@
     <script src="scripts/getvisits.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menubuttons.js"></script>
+    <script src="scripts/getweather.js"></script>
+    <script src="scripts/getlinks.js"></script>
 </body>
 </html>

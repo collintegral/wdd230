@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "georgia";
+    letter-spacing: -.08rem;
+}
+
+h1 {
+    color: #335666;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#cards {
+    background-color: #334656;
+    box-shadow: 0px 0px 20px 20px #99ACBC;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));;
+    margin: 1%;
+    padding: 1%;
+}
+
+section {
+    background-color: #335666;
+    border: 2px solid #679DAD;
+    margin: 1%;
+    text-align: center;
+}
+
+section > img {
+    max-width: 75%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 0 30px #444;
+}

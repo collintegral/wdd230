@@ -1,0 +1,93 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 1"
+            , "links" : [
+                {
+                    "url" : "week01/holygrail.html"
+                    , "title" : "Grail Layout" 
+                }
+                , {
+                    "url" : "week01/media-query.html"
+                    , "title" : "Media Query"
+                }
+            ]
+        }
+        , {
+            "week" : "Week 2"
+            , "links" : [
+                {
+                    "url" : "week02/design.html"
+                    , "title" : "Design Principles"
+                }
+                , {
+                    "url" : "https://codepen.io/Collintegral/pen/XWwZrdV"
+                    , "title" : "Hamburger CodePen"
+                }
+                , {
+                    "url" : "week02/bom.html"
+                    , "title" : "BoM DOM Manipulation"
+                }
+            ]
+        }
+        , {
+            "week" : "Week 3"
+            , "links" : [
+                {
+                    "url" : "week03/images/landscape.webp"
+                    , "title" : "WebP"
+                }
+                , {
+                    "url" : "week03/lazyload.html"
+                    , "title" : "Lazy Loads"
+                }
+                , {
+                    "url" : "week03/responsive-images.html"
+                    , "title" : "Responsive Images"
+                }
+                , {
+                    "url" : "week03/bom.html"
+                    , "title" : "BoM Web Storage"
+                }
+            ]
+        }
+        , {
+            "week" : "Week 4"
+            , "links" : [
+                {
+                    "url" : "https://codepen.io/Collintegral/pen/WNBVrME"
+                    , "title" : "Pseudoclass CodePen"
+                }
+                , {
+                    "url" : "week04/tablebuild.html"
+                    , "title" : "Table Build"
+                }
+                , {
+                    "url" : "week04/index.html"
+                    , "title" : "Form Practice"
+                }
+            ]
+        }
+        , {
+            "week" : "Week 5"
+            , "links" : [
+                {
+                    "url" : "https://codepen.io/Collintegral/pen/NWZWLVR"
+                    , "title" : "Pseudoelement CodePen"
+                }
+                , {
+                    "url" : "week05/new-ward-members.json"
+                    , "title" : "JSON"
+                }
+                , {
+                    "url" : "week05/prophets.html"
+                    , "title" : "Prophet Fetch Practice"
+                }
+                , {
+                    "url" : "week05/weather.html"
+                    , "title" : "Weather API Practice"
+                }
+            ]
+        }
+    ]
+}
