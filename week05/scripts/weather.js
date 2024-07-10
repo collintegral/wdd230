@@ -13,7 +13,7 @@ async function getWeatherData(weatherUrl) {
         const response = await fetch(weatherUrl);
         if (response.ok) {
             const data = await response.json();
-        displayResults(data);
+            displayResults(data);
         }
         else {
             throw Error(await response.text());

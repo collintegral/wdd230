@@ -1,6 +1,6 @@
 const currentTemp = document.querySelector("#current-temp");
 const tempIcon = document.querySelector("#temp-icon");
-const tempDesc = document.querySelector("temp-desc");
+const tempDesc = document.querySelector("#temp-desc");
 
 const yorkLat = 39.96, yorkLon = 76.72;
 const appKey = "59f8acb8bb178ff756f9f9ce77f00de6";
@@ -24,6 +24,8 @@ async function getWeather(weatherUrl) {
 function displayWeather(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     tempIcon.alt = data.weather[0].description;
-    tempIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    tempIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}\@2x.png`;
     tempDesc.textContent = data.weather[0].description;
 }
+
+getWeather(url);
