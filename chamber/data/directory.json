@@ -1,0 +1,60 @@
+{
+    "companies" : [
+        {
+            "name" : "Sample Company"
+            , "address" : "6000 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 2
+        }
+        , {
+            "name" : "Sample Inc."
+            , "address" : "6050 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 3
+        }
+        , {
+            "name" : "Sample LLC"
+            , "address" : "6100 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 1
+        }
+        , {
+            "name" : "Sample & Sons"
+            , "address" : "6350 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 3
+        }
+        , {
+            "name" : "Sample Corp."
+            , "address" : "7070 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 2
+        }
+        , {
+            "name" : "Sample Solutions"
+            , "address" : "9862 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 0
+        }
+        , {
+            "name" : "Sample Ltd."
+            , "address" : "8844 Queen St York PA 17402"
+            , "phone" : "123 456-7890"
+            , "weblink" : "https://www.samplesite.com/"
+            , "icon" : "sample-logo.webp"
+            , "memblevel" : 1
+        }
+    ]
+}

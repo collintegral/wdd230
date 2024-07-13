@@ -66,6 +66,25 @@
         grid-row: 2 / 3;
     }
 
+    .business-display.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));;
+    }
+
+    .business-display.list {
+        display: flex;
+        flex-direction: column;
+    }
+    .business-display.list div {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        width: 100%;
+    }
+    
+    .business-display.list div > * {
+        margin: 1rem;
+    }
+
     main.form {
         display: grid;
         grid-template: 1fr / 1fr 2fr;

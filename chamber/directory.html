@@ -31,31 +31,21 @@
 
     <nav>
         <ul>
-            <li><a href="index.html" class="active-nav">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="directory.html" class="active-nav">Directory</a></li>
             <li><a href="join.html">Join Us</a></li>
         </ul>
     </nav>
 
-    <main class="hero-img">
-        <div class="call-to-action">
-            <form>
-                <button formaction="join.html">Join the Chamber</button>
-            </form>
+    <main class="directory-grid">
+        <h1>Business Directory</h1>
+        <div class="switch">
+        <img src="images/grid-icon.webp">
+        <label class="grid-switch"><input type="checkbox" id="toggle"><span class="slider"></span></label>
+        <img src="images/list-icon.webp">
         </div>
-        <div class="current-events card">
-            <h3>Current Events</h3>
-            <p>Placeholder</p>
-        </div>
-        <div class="weather card">
-            <h3>Weather</h3>
-            <p>Placeholder</p>
-        </div>
-        <div class="company-spotlight card">
-            <h3>Spotlights</h3>
-            <p>Placeholder</p>
-        </div>
+        <div class="business-display grid"></div>
     </main>
 
     <footer>
@@ -65,5 +55,6 @@
     </footer>
 
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
