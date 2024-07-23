@@ -1,7 +1,5 @@
-const hamButton = document.querySelector('#menu');
 const bannerClose = document.querySelector('#banner-close');
 const inviteBanner = document.querySelector('.invite-banner');
-const navigation = document.querySelector('nav');
 const weatherCard = document.querySelector('.weather');
 const spotlightCard = document.querySelector('.company-spotlight');
 const companySource = "data/directory.json"
@@ -16,11 +14,6 @@ const later = new Date();
 todayDate = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${today.getDate()}`;
 later.setDate(later.getDate() + 1);
 
-
-hamButton.addEventListener('click', () => {
-	navigation.classList.toggle('open');
-	hamButton.classList.toggle('open');
-});
 
 bannerClose.addEventListener('click', () => {
 	inviteBanner.classList.toggle('not-displayed');
