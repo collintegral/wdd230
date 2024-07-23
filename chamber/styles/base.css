@@ -147,22 +147,19 @@ main h2, p {
 }
 
 main .call-to-action {
-    display: grid;
-    grid-template-rows: 1fr 2fr;
     justify-content: center;
     align-items: center;
     min-height: 200px;
 }
 
 .call-to-action button {
-    grid-row: 1/2;
     font-family: "Belanosima";
     background-color: #005c94;
     border-color: #006ca4;
     color: white;
     padding: .5rem;
     display: block;
-    margin: auto;
+    margin: 28% auto;
 }
 
 .card {
